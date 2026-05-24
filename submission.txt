@@ -1,0 +1,12 @@
+# Menjalankan ETL Pipeline
+python main.py
+
+# Menjalankan Unit Test
+python -m pytest tests
+
+# Menjalankan Test Coverage
+python -m coverage run -m pytest tests
+python -m coverage report
+
+# URL Google Sheets
+https://docs.google.com/spreadsheets/d/1fuN0DPopLcXYLZJ9YKG4w7ron2sBjtCKrctzdWJwlnA/edit?gid=0#gid=0
